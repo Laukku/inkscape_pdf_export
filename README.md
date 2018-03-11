@@ -10,7 +10,7 @@ Put inkscape_pdf_export.py somewhere - this file is a module that contains most 
 
 ### Prerequisites
 
-This script was written for python 3. This module uses lxml to read SVG files. An external program called PdfMerge is required for combining exported PDF pages into larger documents. Get it from https://www.pdfmerge.com/
+This script was written for python 3. This module uses lxml to read SVG files. An external program called PdfMerge is required for combining exported PDF pages into larger documents. Get it from https://www.pdfmerge.com/ . Its location must be specified in inkscape_export.py in the variable pdfmergepath on line 36, if it is not C:\Program Files (x86)\PdfMerge\PdfMerge.exe.
 
 ```
 pip install lxml
