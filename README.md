@@ -41,6 +41,7 @@ Finally run the script:
 ```
 python export.py
 ```
+The PDFs are created in a folder called 'output' under the current folder. Hopefully.
 
 ## Authors
 
