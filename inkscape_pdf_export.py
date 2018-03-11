@@ -29,7 +29,7 @@ def export(SVGfile, overwrite=True):
     curdir = os.getcwd() # Location of this python script / or the one calling this module
     # transformscale = -3.77953 # For some reason transforms are given in px (?) even if document units are set to equal mm # Only if you try to apply a transform to the root SVG node in inkscape
     # overwrite = False # Overwrite Inkscape export output pdf files
-    targetdir = r"test_output"
+    targetdir = r"output"
     tempfile = targetdir+r"\tempfile.svg"
     os.makedirs(targetdir, exist_ok=True)
     # Change this if your PdfMerge is located somewhere else:
